@@ -9,7 +9,11 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.5.0",
@@ -20,13 +24,14 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^33.0.2"
+    "electron": "^33.0.2",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
   },
   "keywords": [],
-  "author": {
-    "name": "aka",
-    "email": "akadev8@outlook.com"
-  },
+  "author": "aka <akadev8@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",

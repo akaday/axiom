@@ -1,4 +1,6 @@
 # Axiom
+I'm grateful for your support! Consider buying me a coffee. Your support is greatly appreciated.
+[![Buy Me a Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow)](https://paypal.me/barki0)
 
 ## About Axiom
 Axiom is an Electron application designed to [briefly describe the purpose of your application]. It leverages the power of Electron to provide a cross-platform desktop application that offers [describe key functionality]. Whether you're a developer, a designer, or just someone looking for a robust and flexible tool, Axiom is built to cater to your needs.
